@@ -1,11 +1,29 @@
-# React + Vite
+# Feedback Collector 📝
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple feedback collection app built using **React**, **Tailwind CSS**, and **Firebase**. Users can submit their feedback, which is stored in Firestore. Admin can toggle themes and view all feedbacks.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔧 Tech Stack
+
+- React (Vite)
+- Tailwind CSS
+- Firebase Firestore
+- Netlify (for deployment)
+
+---
+
+## 📁 Project Structure
+
+/ ├── components/ │ ├── FeedbackForm.jsx │ ├── FeedbackList.jsx │ └── ToggleButton.jsx ├── pages/ │ └── Home.jsx ├── firebase.js ├── App.jsx ├── main.jsx ├── .env ├── index.css └──
+
+## 🚀 Deployment Steps
+
+1. Clone the repo  
+2. Run `npm install`  
+3. Create a `.env` file and paste your Firebase credentials (as shown in firebase.js)  
+4. Run `npm run dev` to start locally  
+5. Deploy using Netlify (Connect GitHub repo)
 
 ## Expanding the ESLint configuration
 
